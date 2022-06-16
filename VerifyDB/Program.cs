@@ -1,11 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using VerifyDB.Data;
+using VerifyDB.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddAutoMapper(c => c.AddProfile<MapperProfile>());
+
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<DataContext>();
+
+builder.Services.AddDbContext<DataContext>(optionsBuilder => optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString(nameof(DataContext))));
 
 var app = builder.Build();
 
