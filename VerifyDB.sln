@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyDB", "VerifyDB\VerifyDB.csproj", "{762810D7-B6C6-4419-A291-DFFF65AC8721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerifyDB", "VerifyDB\VerifyDB.csproj", "{762810D7-B6C6-4419-A291-DFFF65AC8721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyDBModels", "VerifyDBModels\VerifyDBModels.csproj", "{7A6CCFA0-8C76-4BD0-B5BD-890F9BCA0843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyDB.DataAccessLayer", "VerifyDB.DataAccessLayer\VerifyDB.DataAccessLayer.csproj", "{2C0F10E9-88CB-4EB9-B277-A9874774CBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyDB.Utilities", "VerifyDB.Utilities\VerifyDB.Utilities.csproj", "{C1732D3A-0D5B-41A3-8DD1-AB8804BC2F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyDB.ViewModels", "VerifyDB.ViewModels\VerifyDB.ViewModels.csproj", "{C0478C7B-5769-4084-8D67-24E2164F771D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{762810D7-B6C6-4419-A291-DFFF65AC8721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{762810D7-B6C6-4419-A291-DFFF65AC8721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{762810D7-B6C6-4419-A291-DFFF65AC8721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6CCFA0-8C76-4BD0-B5BD-890F9BCA0843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6CCFA0-8C76-4BD0-B5BD-890F9BCA0843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6CCFA0-8C76-4BD0-B5BD-890F9BCA0843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6CCFA0-8C76-4BD0-B5BD-890F9BCA0843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0F10E9-88CB-4EB9-B277-A9874774CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0F10E9-88CB-4EB9-B277-A9874774CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0F10E9-88CB-4EB9-B277-A9874774CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0F10E9-88CB-4EB9-B277-A9874774CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1732D3A-0D5B-41A3-8DD1-AB8804BC2F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1732D3A-0D5B-41A3-8DD1-AB8804BC2F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1732D3A-0D5B-41A3-8DD1-AB8804BC2F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1732D3A-0D5B-41A3-8DD1-AB8804BC2F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0478C7B-5769-4084-8D67-24E2164F771D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0478C7B-5769-4084-8D67-24E2164F771D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0478C7B-5769-4084-8D67-24E2164F771D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0478C7B-5769-4084-8D67-24E2164F771D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
